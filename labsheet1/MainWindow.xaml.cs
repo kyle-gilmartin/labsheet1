@@ -41,14 +41,14 @@ namespace labsheet1
             var e2 = new Band()
             {
                 Year = new DateTime(2019, 6, 30),
-                BandName = "",
+                BandName = "Post Malone",
                 Members = "mark"
 
             };
             var e3 = new Band()
             {
                 Year = new DateTime(2019, 6, 30),
-                BandName = "Travel",
+                BandName = "Meduza",
                 Members = "bob"
 
             };
