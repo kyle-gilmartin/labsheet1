@@ -19,9 +19,18 @@ namespace labsheet1
             Members = members;
         }
 
+        public Band()
+        {
+        }
+
         public int CompareTo(object obj)
         {
             throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return $"{BandName}";
         }
     }
 }
